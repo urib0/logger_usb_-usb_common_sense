@@ -1,0 +1,2 @@
+# logger_usb_-usb_common_sense
+USBコモンセンスのデータをロギングするやつ
