@@ -1,6 +1,6 @@
 {
+    "basedir": "base",
     "logdir": "log",
-    "logdir": "base",
      "devices": [
         {
             "sensor_name": "8xxxxxxx",
