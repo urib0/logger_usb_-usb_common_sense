@@ -1,0 +1,15 @@
+{
+    "logdir": "log",
+    "logdir": "base",
+     "devices": [
+        {
+            "sensor_name": "8xxxxxxx",
+            "serial_port": "/dev/serial/by-id/hoge",
+            "serial_rate": 9600,
+            "sensors": [
+                "tm",
+                "hu"
+            ]
+        }
+    ]
+}
