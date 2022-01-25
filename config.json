@@ -3,21 +3,14 @@
     "logdir": "log",
      "devices": [
         {
-            "sensor_name": "8xxxxxxx",
+            "sensor_name": "temp_hum",
             "serial_port": "/dev/serial/by-id/hoge",
             "serial_rate": 9600,
-            "sensors": [
-                "tm",
-                "hu"
-            ]
         },
         {
-            "sensor_name": "8xxxxxxx",
+            "sensor_name": "co2",
             "serial_port": "/dev/serial/by-id/piyo",
             "serial_rate": 9600,
-            "sensors": [
-                "co2"
-            ]
         }
     ]
 }
