@@ -10,6 +10,14 @@
                 "tm",
                 "hu"
             ]
+        },
+        {
+            "sensor_name": "8xxxxxxx",
+            "serial_port": "/dev/serial/by-id/piyo",
+            "serial_rate": 9600,
+            "sensors": [
+                "co2"
+            ]
         }
     ]
 }
