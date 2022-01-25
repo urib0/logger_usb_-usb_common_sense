@@ -1,6 +1,6 @@
 {
     "basedir": "base",
-    "logdir": "log",
+    "logdir_name": "log_usb",
      "devices": [
         {
             "sensor_name": "temp_hum",
