@@ -5,12 +5,12 @@
         {
             "sensor_name": "temp_hum",
             "serial_port": "/dev/serial/by-id/hoge",
-            "serial_rate": 9600,
+            "serial_rate": 9600
         },
         {
             "sensor_name": "co2",
             "serial_port": "/dev/serial/by-id/piyo",
-            "serial_rate": 9600,
+            "serial_rate": 9600
         }
     ]
 }
