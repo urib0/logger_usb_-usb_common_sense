@@ -1,5 +1,5 @@
 {
-    "basedir": "base",
+    "basedir": "/home/pi/work/log",
     "logdir_name": "log_usb",
      "devices": [
         {
