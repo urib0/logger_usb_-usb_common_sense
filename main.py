@@ -21,16 +21,17 @@ def logging(path, name, data):
     f.close()
 
 # 設定値読み込み
-f = open("/home/pi/work/logger_usb_common_sense/config.json", "r")
+f = open("./config.json", "r")
 conf = json.loads(f.read())
 f.close()
 
 path = conf["basedir"] + "/" + conf["logdir_name"]
 
-for device in conf["devices"]:
-    readSer = serial.Serial(
-        device["serial_port"], device["serial_rate"], timeout=3)
-    raw = readSer.readline().decode().replace('\n', '')
-    print(raw)
-    readSer.close()
-    logging(path, device["sensor_name"], raw)
+while True:
+    for device in conf["devices"]:
+        readSer = serial.Serial(
+            device["serial_port"], device["serial_rate"], timeout=3)
+        raw = readSer.readline().decode().replace('\n', '')
+        print(raw)
+        readSer.close()
+        logging(path, device["sensor_name"], raw)
