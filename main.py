@@ -6,6 +6,7 @@ import time
 import json
 import datetime
 import os
+import time
 
 DEBUG = True
 
@@ -35,3 +36,4 @@ while True:
         print(raw)
         readSer.close()
         logging(path, device["sensor_name"], raw)
+    time.sleep(conf["interval"])
