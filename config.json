@@ -1,6 +1,7 @@
 {
     "basedir": "/home/pi/work/log",
     "logdir_name": "log_usb",
+    "interval": 5,
      "devices": [
         {
             "sensor_name": "temp_hum",
