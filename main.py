@@ -36,4 +36,6 @@ while True:
         print(raw)
         readSer.close()
         logging(path, device["sensor_name"], raw)
+    if not conf["interval"]:
+        break
     time.sleep(conf["interval"])
