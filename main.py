@@ -22,7 +22,7 @@ def logging(path, name, data):
     f.close()
 
 # 設定値読み込み
-f = open("./config.json", "r")
+f = open("/home/pi/work/logger_usb_common_sense/config.json", "r")
 conf = json.loads(f.read())
 f.close()
 
